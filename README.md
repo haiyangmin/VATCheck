@@ -17,7 +17,10 @@ npm cache clear
 
 npm install
 ```
-
+- Bundle the code
+```bash
+npm run compile
+```
 - Start local server
 ```bash
 npm run start:dev
