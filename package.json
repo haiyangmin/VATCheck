@@ -1,0 +1,45 @@
+{
+  "name": "vatcheck",
+  "version": "1.0.0",
+  "description": "a simple UI for checking VAT numbers",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "webpack-dev-server --config webpack.config.js",
+    "build-dev": "webpack -d --mode development --config webpack.config.js",
+    "build-prod": "webpack -p --mode production --config webpack.config.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haiyangmin/VATCheck.git"
+  },
+  "keywords": [
+    "VAT"
+  ],
+  "author": "Wangjun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haiyangmin/VATCheck/issues"
+  },
+  "homepage": "https://github.com/haiyangmin/VATCheck#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.0.2",
+    "redux": "^4.0.1",
+    "react-hot-loader": "^4.12.0",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "eslint": "3.15.0",
+    "eslint-plugin-react": "^5.1.1",
+    "webpack": "^4.35.0",
+    "webpack-cli": "^3.3.5",
+    "webpack-dev-server": "^3.7.2"
+  }
+}
