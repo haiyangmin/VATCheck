@@ -9,7 +9,7 @@ git clone https://github.com/haiyangmin/VATCheck
 
 - Change to the master branch:
 ```bash
-git checkout master
+git checkout dev
 ```
 - At root folder install the node modules:
 ```bash
