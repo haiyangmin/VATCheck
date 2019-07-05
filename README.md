@@ -14,10 +14,7 @@ git checkout master
 - At root folder install the node modules:
 ```bash
 npm cache clear
-```
 
-- Install node modules:
-```bash
 npm install
 ```
 
@@ -26,4 +23,4 @@ npm install
 npm run start:dev
 ```
 
-- Access [http://localhost:3000/](http://localhost:9000/)
+- Access [http://localhost:9000/](http://localhost:9000/)
